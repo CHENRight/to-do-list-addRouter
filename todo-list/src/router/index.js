@@ -17,10 +17,9 @@ export default new Router({
     },
     {
       path:'/home',
-      name:'Home',
       component: Home,
       children: [
-        { path: '/',redirect:'list' },
+        { path: '/',redirect:'/list' },
         { path: '/list', component: container},
         { path:'/other',component: HelloWorld}
       ]

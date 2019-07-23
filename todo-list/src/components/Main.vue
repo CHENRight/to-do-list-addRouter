@@ -2,6 +2,7 @@
     <div id="Main">
         <div>
             <input type="text" placeholder="enter your name" v-model="inputName"/>
+          <br/><br/>
             <a href="#" @click="pushRouter">Start Using</a>
         </div>
     </div>
@@ -27,5 +28,21 @@
 </script>
 
 <style scoped>
+  div{
+    text-align: center;
+    padding-top: 30px;
+  }
+  input{
+    width: 500px;
+    height: 50px;
+    border: unset;
+    border-bottom: #0d3349 2px solid;
+  }
+  input::-webkit-input-placeholder{
+    font-family: Cambria;
+    font-size: 40px;
+  }
+  a{
 
+  }
 </style>

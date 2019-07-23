@@ -7,9 +7,9 @@
       </div>
       <div>
         <div>
-          <a href="/list">to-do-list</a>
+          <router-link to="/list">to-do-list</router-link>
           <br />
-          <a href="/other">hello world</a>
+          <router-link to="/other">hello world</router-link>
         </div>
         <div>
           <router-view></router-view>
