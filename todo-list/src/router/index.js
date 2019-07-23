@@ -4,6 +4,7 @@ import Main from '@/components/Main'
 import Home from "@/components/Home";
 import container from "@/components/container";
 import HelloWorld from "@/components/HelloWorld";
+import MyMessage from "@/components/MyMessage";
 
 
 Vue.use(Router)
@@ -21,7 +22,7 @@ export default new Router({
       children: [
         { path: '/',redirect:'/list' },
         { path: '/list', component: container},
-        { path:'/other',component: HelloWorld}
+        { path:'/other',component: MyMessage}
       ]
     }
   ]

@@ -9,7 +9,7 @@
         <div>
           <router-link to="/list">to-do-list</router-link>
           <br />
-          <router-link to="/other">hello world</router-link>
+          <router-link to="/other">My message</router-link>
         </div>
         <div>
           <router-view></router-view>

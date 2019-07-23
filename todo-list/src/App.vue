@@ -6,7 +6,6 @@
 </template>
 
 <script>
-  //import container from './components/container.vue'
   export default {
     name: 'app'
   }
