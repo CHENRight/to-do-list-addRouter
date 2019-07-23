@@ -1,0 +1,13 @@
+.idea
+####
+node_modules
+####
+config
+##
+*.json
+###
+.png
+##
+todo-list
+###
+!todo-list src

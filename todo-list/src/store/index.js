@@ -10,7 +10,8 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
     state: {
         items: [],
-        status: 0
+        status: 0,
+        name:""
     },
     getters,
     actions,
