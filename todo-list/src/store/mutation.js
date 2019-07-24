@@ -11,7 +11,7 @@ export default {
     updateStatus(state,status){
         state.status = status;
     },
-    getInputName(state,inputName){
+  getInputName(state,inputName){
       state.name = inputName;
     }
 }

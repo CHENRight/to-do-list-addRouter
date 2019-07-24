@@ -1,8 +1,8 @@
 <template>
   <div id="Main">
-    <div>
+    <div class="divAll">
       <div>
-          <a href="/"  onClick="return confirm('确定返回?')">返回</a>
+          <router-link to="/">返回</router-link>
           <p>用户：{{ this.$store.state.name}}</p>
       </div>
       <div>
@@ -23,6 +23,14 @@
 <script>
     export default {
       name: "Home",
+      beforeRouteLeave: (to, from, next) => {
+        const answer = window.confirm('Do you really want to leave?');
+        if (answer) {
+          next()
+        } else {
+          next(false)
+        }
+      },
     }
 </script>
 
